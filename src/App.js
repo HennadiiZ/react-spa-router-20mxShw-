@@ -19,12 +19,9 @@ function App() {
             <Products />
           </Route>
 
-          {/* <Route path="/product-detail:productId"> */}
-          {/* <Route path="/products/:productId"> */}
           <Route path="/products/:productId">
             <ProductDetail />
           </Route>
-          
         </Switch>
       </main>
     </div>
